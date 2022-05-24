@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import Card from './Components/Card';
+import Footer from './Components/Footer';
+import products from "./products.json";
+import { useState, useEffect } from 'react';
 
-function App() {
+export default function App() {
+  products = products.sort((productA, productB) => productA.price - productB.price);
+  const money = 1824;
+  const [total, setTotal] = useState(0);
+  const [basket, setBasket] = useState([]);
+
+  useEffect(() => {
+    setTotal(
+      basket.reduce((acc, item) => {
+        return (acc + item.amount * products.find((product) => product.id === item.id).price)
+      }, 0)
+    )
+  }, [basket])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header total={total} money={money}/>
+      <div className="container">
+        <Card basket={basket} setBasket={setBasket} products={products} total={total} money={money} />
+        { basket.length > 0 && <Footer total={total} basket={basket} setBasket={setBasket}/>}
+      </div>
+    </>
   );
 }
-
-export default App;

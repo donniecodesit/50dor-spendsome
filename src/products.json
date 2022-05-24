@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "title": "Coca-Cola",
+        "price": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0076/9789/1392/products/shopping_2b467fec-c18d-4716-ac4f-85296eb6b938_300x300.png?v=1616531423"
+    },
+    {
+        "id": 2,
+        "title": "Pepsi",
+        "price": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0261/4529/2334/products/3499-pepsi_12oz_1c52571b-768c-486b-8380-64ea67926eb1.png?v=1592836449"
+    },
+    {
+        "id": 3,
+        "title": "Dr. Pepper",
+        "price": 3,
+        "image": "https://dam.keurig.com/content/dam/cold-beverage-brands/brands/dr_pepper/product_images/dpregular/cans/12oz/png/DP_Regular_12oz_Can_Wet2.png"
+    },
+    {
+        "id": 4,
+        "title": "Mountain Dew",
+        "price": 2,
+        "image": "https://www.kroger.com/product/images/large/front/0001200000085"
+    },
+    {
+        "id": 5,
+        "title": "Sprite",
+        "price": 2,
+        "image": "https://www.sprite.com/content/dam/nagbrands/us/sprite/en/products/ginger/Lemon-Lime.png"
+    },
+    {
+        "id": 6,
+        "title": "Java Monster",
+        "price": 3,
+        "image": "https://i5.walmartimages.com/asr/0a5a8a66-bdd1-448a-bb01-5e366737e142.b2780816b64e22ff358782f949c96ab8.png"
+    },
+    {
+        "id": 7,
+        "title": "Orange Juice (1 gal)",
+        "price": 5,
+        "image": "https://plainsdairy.com/wp-content/uploads/2020/09/36800.05730_FDC_OJ_Calcium_VitD_Gallon_Front-min.png"
+    },
+    {
+        "id": 8,
+        "title": "Coca-Cola (12 pack)",
+        "price": 10,
+        "image": "https://cdn.shopify.com/s/files/1/0270/6410/7107/products/Screen-Shot-2019-10-24-at-9.19.20-PM_600x.png?v=1583645693"
+    },
+    {
+        "id": 9,
+        "title": "Dr. Pepper (12 pack)",
+        "price": 7,
+        "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/40922005/1886773292.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Starbucks OTC (72 oz)",
+        "price": 13,
+        "image": "https://i5.walmartimages.com/asr/ca44ae1f-e19c-4f0f-a238-02e91f2aaac9.6ca02a809d105d248e725b21b7927643.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+    },
+    {
+        "id": 11,
+        "title": "Nintendo Switch",
+        "price": 200,
+        "image": "https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/photo01?v=2022042101"
+    },
+    {
+        "id": 12,
+        "title": "Sony PlayStation 4",
+        "price": 300,
+        "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps4-slim-image-block-01-en-24jul20?$native--t$"
+    },
+    {
+        "id": 13,
+        "title": "Sony PlayStation 5",
+        "price": 800,
+        "image": "https://cdn.shopify.com/s/files/1/0531/4923/7445/products/sony-ps5-edicion-digital-removebg-preview_580x.png?v=1618852043"
+    },
+    {
+        "id": 14,
+        "title": "Juju C. Apple Squeeze",
+        "price": 36,
+        "image": "https://cdn.shopify.com/s/files/1/0077/0048/0047/products/Caramelapple-Pre-Explosion_1024x1024@2x.png?v=1652398860"
+    },
+    {
+        "id": 15,
+        "title": "Juju Blue Raspberry",
+        "price": 36,
+        "image": "https://cdn.shopify.com/s/files/1/0077/0048/0047/products/blueberry_0dc8aa71-8b24-4189-9fce-55044901082d_1024x1024@2x.jpg?v=1629904726"
+    },
+    {
+        "id": 16,
+        "title": "Google Nest Hub",
+        "price": 229,
+        "image": "https://static.techspot.com/images/products/2019/audio-video/org/2019-09-09-product.png"
+    },
+    {
+        "id": 17,
+        "title": "Valve Index VR Kit + Half-Life: Alyx",
+        "price": 999,
+        "image": "https://drakemall-files-new.s3.eu-central-1.amazonaws.com/Valve%20In-ckrxwo6t400f301qff83wu5fa.png"
+    },
+    {
+        "id": 18,
+        "title": "Maingear Turbo (2021)",
+        "price": 2162,
+        "image": "https://i.pcmag.com/imagery/reviews/0072W6s3qBYbr79y1hGSMfg-1.fit_lim.size_800x450.v1633625945.jpg"
+    },
+    {
+        "id": 19,
+        "title": "GeForce RTX 3090 Suprim X 24G",
+        "price": 2999,
+        "image": "https://i.pcmag.com/imagery/reviews/01pGjX4tNL1wUuA5lAZScL1-2.fit_lim.size_800x450.v1611335373.jpg"
+    }
+]
